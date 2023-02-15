@@ -49,39 +49,39 @@
 -------- Capítulo 19 () --------
 
 ------- Aula 1 (Trabalhando com imagens de fundo) -------
--> 
-
---- HTML ---
-
---- CSS ---
-
-
 
 
 ------- Aula 2 (Background-image) -------
--> 
-
---- HTML ---
 
 --- CSS ---
+-> background-image: url('imagem') - faz com que o fundo da tag trabalhada fique com a 'imagem' que deseja
 
 
 
 
 ------- Aula 3 (Background-repeat) -------
--> 
-
---- HTML ---
+-> Repetição é automática caso não preencha o site ou a tag completamente
 
 --- CSS ---
+-> background-size: largura altura - faz um redimensionamento do 'background-image' passando uma nova 'largura' e 'altura'
+    -> background-size: largura/altura - com um parâmetro faz com que aplique nas duas direções
+-> background-repeat: tipo - faz com que a imagem obedeça ao 'tipo' de repetição
+    -> repeat - faz a imagem se repetir até que ela preencha toda a tag
+    -> no-repeat - não repete nenhuma vez na tag
+    -> repeat-x - repete a imagem somente no eixo x (horizontal) começando pelo canto esquerda superior
+    -> repeat-y - repete a imagem somente no eixo y (vertical) começando pelo canto esquerda superior
+
+
 
 
 ------- Aula 4 (Background-position) -------
--> 
-
---- HTML ---
 
 --- CSS ---
+-> backgroud-position: direcao1 direcao2 - faz com que a imagem que será utilizada com 'backgroud-image' comece com a 'direcao1' + 'direcao2', por exemplo, 'direcao1' = left e 'direcao2' = top, desta forma a imagem começara a ser preenchida pela esquerda na parte de cima
+    -> direcao1 - pode ter o valor de 'right', 'left' e 'center'
+    -> direcao2 - pode ter o valor de 'bottom', 'top' e 'center'
+
+
 
 
 ------- Aula 5 (Background-size) -------
