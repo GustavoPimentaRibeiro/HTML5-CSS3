@@ -15,38 +15,33 @@
 
 
 ------- Aula 4 (Primeiro repositório) -------
--> 
 
 
 ------- Aula 5 (Gerenciando repositórios) -------
--> 
 
 
 ------- Aula 6 (Github Pages) -------
--> 
+-> Para acionar o Github Pages no seu repositório utilize os 2 link:
+    -> https://docs.github.com/pt/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site
+    -> https://docs.github.com/pt/pages/setting-up-a-github-pages-site-with-jekyll/adding-a-theme-to-your-github-pages-site-using-jekyll
+-> GitHub Pages padrão só trabalha com sites feitos somente com HTML, CSS e JavaScript
+
 
 
 
 ------- Aula 7 (Manutenção em sites no Github) -------
--> 
+-> Não é uma boa prática mexer na branch 'Master'
+
 
 
 
 ------- Aula 8 (Github Social) -------
--> 
-
-
 
 
 ------- Aula 9 (Clonando repositórios) -------
--> 
-
-
 
 
 ------- Aula 10 (Github em outro PC) -------
--> 
-
 
 
 
