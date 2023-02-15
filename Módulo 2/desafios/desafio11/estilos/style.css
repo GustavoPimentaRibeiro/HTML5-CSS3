@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+div#espa > img {
+    position: absolute;
+    width: 100%;
+}
+
+div#astro > img {
+    position: relative;
+    display: block;
+    margin: auto;
+    width: 30%;
+    padding-top: 10%;
+}

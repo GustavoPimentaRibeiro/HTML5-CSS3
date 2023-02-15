@@ -1,0 +1,360 @@
+-------- Capítulo 1 () --------
+
+------- Aula 0 (O que vamos aprender no módulo 01?) -------
+
+
+------- Aula 1 (Precisamos fazer um acordo) -------
+
+
+------- Aula 2 (Será que este curso é pra mim?) -------
+
+
+------- Aula 3 (Melhores livros para aprender HTML e CSS3) -------
+
+
+------- Aula 4 (Como a internet chega na minha casa?) -------
+
+
+
+
+
+-------- Capítulo 2 () --------
+
+------- Aula 1 (Como a internet funciona?) -------
+
+
+------- Aula 2 (O que é domínio e hospedagem?) -------
+-> gTLD - qualquer TLD que não está ligada a um país ou região (.com, .gov ...)
+-> ccTLD - extensão de domínio do país (.br, .uk, .us ...)
+
+
+
+
+-------- Capítulo 3 () --------
+
+------- Aula 1 (A diferença entre HTML, CSS e JavaScript) -------
+-> HTML (Hypertext Markup Language)
+-> CSS (Cascading Style Sheets)
+
+
+
+
+------- Aula 2 (Front-end, Back-end e Full Stack) -------
+-> Client-side (Front-end) - HTML, CSS, JavaScript...
+-> Server-side (Back-end) - JavaScript, PHP, C#, Python, Ruby, Java...
+-> Full Stack - Desenvolve front-end e back-end
+
+
+
+
+-------- Capítulo 4 () --------
+
+------- Aula 1 (Instalando todas as ferramentas) -------
+
+
+------- Aula 2 (Seu primeiro código HTML) -------
+
+--- HTML ---
+-> <p> - tag de parágrafo
+-> <h1> - tag de título primário
+
+
+
+
+-------- Capítulo 5 () --------
+
+------- Aula 1 (Parágrafos e quebras) -------
+
+--- HTML ---
+-> &lt; - faz o sinal '<' no corpo do texto
+-> &gt; - faz o sinal '>' no corpo do texto
+-> <br> - tag de quebra de linha
+
+
+
+
+------- Aula 2 (Símbolos e Emoji no seu site) -------
+
+--- HTML ---
+-> &reg; - marca registrada
+-> &copy; - copyright
+-> &trade; - marca registrada em inglês
+-> &euro; - moeda de euro
+-> &pound; - moeda de peso
+-> &yen; - moeda chinesa
+-> &cent; - moeda de centavos
+-> &delta; - delta minúsculo
+-> &Delta; - delta maiúsculo
+-> &uarr; - seta para cima
+-> &sum; - somatório
+-> &empty; - vazio
+-> &nbsp; - espaço em branco
+-> &larr; - seta para esquerda
+-> &rarr; - seta para direita
+-> &darr; - seta para baixo
+
+-> &#xcodigo; - insere um emoji de acordo com o 'codigo', sempre é necessário o prefixo '&#x' para indicar um hexadecimal
+
+
+
+
+-------- Capítulo 6 () --------
+
+------- Aula 1 (Você tem o direito de usar qualquer imagem no seu site?) -------
+-> No google imagens, em direitos autorias, marque a opção "Marcadas para reutilização com modificação" para evitar problemas
+
+
+
+
+------- Aula 2 (Quais são os formatos para imagens na Web?) -------
+-> PNG - imagem com fundo transparente para trabalhar com camadas
+-> JPEG - imagem com compactação, o zoom diminui muito a qualidade
+
+
+
+
+------- Aula 3 (O tamanho das imagens importa para um site?) -------
+
+
+------- Aula 4 (A tag img em HTML5) -------
+
+--- HTML ---
+-> <img src='caminho' alt='texto'> - tag de imagem com 'src' para 'caminho' e 'alt' para 'texto' alternativo (acessibilidade também)
+
+
+
+
+------- Aula 5 (Como mudar o favicon de um site) -------
+-> É necessário salvar a imagem como .ico para conseguir usar como favicon
+-> <link rel="shortcut icon" href="caminho" type="image/x-icon"> - tag que cria um link para mudar o favicon do site utilizando a imagem no 'caminho' especificado
+
+
+
+-------- Capítulo 7 () --------
+
+------- Aula 1 (Hierarquia de Títulos) -------
+
+--- HTML ---
+-> Digitar em uma tag de texto 'lorem' vai abrir opção para criar um texto de exemplo aleatório
+-> <h1><h2><h3><h4><h5><h6> - há seis níveis de tipos de títulos no HTML
+
+
+
+
+-------- Capítulo 8 () --------
+
+------- Aula 1 (Semântica na HTML5 é importante) -------
+
+--- HTML ---
+-> <address> - tag para indicar que é um endereço
+
+
+
+
+------- Aula 2 (Negrito e Itálico do jeito certo) -------
+
+--- HTML ---
+-> <b> - tag para usar negrito SEM semântica
+-> <strong> - tag para usar destaque COM semântica
+
+-> <i> - tag para usar itálico SEM semântica
+-> <em> - tag para usar ênfase COM semântica
+
+
+
+
+------- Aula 3 (Formatações adicionais em HTML) -------
+
+--- HTML ---
+-> <mark> - tag para usar um marca texto no site
+
+-> <small> - tag para deixar o conteúdo mais pequeno nas letras
+-> <big> - tag para dexar o conteúdo mais grande nas letras (OBSOLETO)
+
+-> <del> - tag para deixar o texto marcado como deletado
+-> <ins> - tag para deixar o texto marcado como inserido recentemente (semântico)
+-> <u> - tag apra deixar o texto marcado como sublinhado (OBSOLETO e não semântico)
+
+-> <sup> - tag para deixar o texto em sobrescrito
+-> <sub> - tag para deixar o texto em subscrito
+
+
+
+
+------- Aula 4 (Citações e códigos) -------
+
+--- HTML ---
+-> <code> - tag para indicar que um código de programação
+-> <pre> - tag para que os textos dentro desta tag obedeçam os '\n', '\t' e 'espaços' que foram escritos dentro
+-> <q> - tag para indicar que é uma citação
+-> <blockquote cite="local da citação"> - tag para indicar que é uma citação, o parâmetro 'cite' faz uma indicação do 'local de citação' para deixar os mecanismos de busca melhores
+-> <abbr> - tag para mostrar informação do significado daquela abreviatura ou algo específico quando passa o mouse em cima dele
+-> <bdo> - tag para mandar na direção que o texto aparecerá
+    -> <bdo dir="ltr"> - para mandar o texto ser mostrado da esquerda para a direita (texto normal)
+    -> <bdo dir="rtl"> - para mandar o texto ser mostrado da direita para esquerda (texto invertido)
+
+
+
+
+-------- Capítulo 9 () --------
+
+------- Aula 1 (Listas OL e UL) -------
+-> <ol> - tag para indicar que será feito uma lista ordenada contendo 'li'
+    -> <ol type="1"> - muda o tipo de listagem para numeração começando de 1
+        -> <ol type="1" start="2"> - 'start' serve para dizer ao navegador em qual índice deve começar a contagem de número
+    -> <ol type="A"> - muda o tipo de listagem para letras maiúsculas começando de A
+        -> <ol type="A" start="2"> - 'start' serve para dizer ao navegador em qual índice de letra deve começar a contagem de número
+    -> <ol type="a"> - muda o tipo de listagem para letras minúsculas começando de A
+        -> <ol type="a" start="2"> - 'start' serve para dizer ao navegador em qual índice de letra deve começar a contagem de número
+    -> <ol type="I"> - muda o tipo de listagem para número romanos maiúsculos começando de I
+        -> <ol type="I" start="2"> - 'start' serve para dizer ao navegador em qual índice de letra deve começar a contagem de número
+    -> <ol type="i"> - muda o tipo de listagem para número romanos minúsculos começando de i
+        -> <ol type="i" start="2"> - 'start' serve para dizer ao navegador em qual índice de letra deve começar a contagem de número
+
+-> <ul> - tag para indicar que será feito uma lista não ordenada contendo 'li'
+    -> <ul type="disc"> - muda os elementos para uma bolinha preenchida
+    -> <ul type="circle"> - muda os elementos para uma bolinha não preenchida
+    -> <ul type="square"> - muda os elementos para um quadrado preenchido
+
+-> <li> - tag para indicar elemento de uma lista 'ol' ou 'ul'
+
+
+
+
+------- Aula 2 (Listas mistas e de definição) -------
+
+--- HTML ---
+-> <dl> - tag para indicar que será feito uma lista de definições
+
+-> <dt> - tag para indicar um termo definido na tag 'dl'
+-> <dd> - tag para indicar a descrição de um termo definido na tag 'dl'
+
+
+
+
+-------- Capítulo 10 () --------
+
+------- Aula 1 (Links e Âncoras em HTML5) -------
+-> SEO (Search Engine Optimization) - forma que deve ser feito o seu site para que o Google consiga te indexar nas próximas consultas de algum assunto que seu site tenha
+
+--- HTML ---
+-> <a href="url"> - tag para referenciar um link no seu site utilizando a 'url' passada por parêmtro no 'href'
+    -> <a href="url" target="_blank" rel="external"> - 'target' é o tipo de ação que o navegador vai tomar ao clicar no link da tag 'a', '_blank' significa que vai abrir uma nova aba em branco para a 'url', já o 'rel' é o tipo de link, ou seja, 'external' é um tipo de link que vai para fora do site
+        -> <a href="" rel="next"> - para relacionar que o link será para ir para uma próxima página
+        -> <a href="" rel="prev"> - para relacionar que o link será para voltar para uma página onde estava
+        -> <a href="" rel="nofollow"> - para relacionar que o link não será buscado por algum mecanismo de busca (geralmente utilizado para propagandas, para que não atrapalhe o site oficial que está referenciando de ser encontrado)
+
+
+
+
+------- Aula 2 (Links internos) -------
+
+--- HTML ---
+-> <a href="" target="_self"> - para relacionar a página que será aberta como uma página do próprio site, ou seja, não será aberto uma nova guia
+
+
+
+
+------- Aula 3 (Links para download) -------
+
+--- HTML ---
+-> <a href="#"> - o valor '#' para o 'href' indica que é uma referência vazia, ou seja, pode indicar um donwload ou não levar a lugar algum
+-> <a href="algo.pdf" download="algo.pdf" type="application/pdf"> - os parâmetros 'download' e 'type="application/pdf"' servem para indicar que será feito o download de um arquivo pdf (existe uma padronização para vários tipos de arquivos que deseja baixar na internet na IANA)
+    -> <a href="algo.pdf" download="algo.zip" type="application/zip"> - serve para baixar um arquivo do tipo '.zip' em uma tag 'a'
+
+
+
+
+------- Aula 4 (Desafios propostos) -------
+
+
+
+
+-------- Capítulo 11 () --------
+
+------- Aula 1 (Imagens dinâmicas) -------
+
+--- HTML ---
+-> <picture> - tag para marcar um espaço para imagens dinâmicas
+    -> <source> - tag para carregar dinamicamente um conteúdo
+        -> <source media="(max-width: 700px)" srcset="imagem.png" type="image/png"> - 'media="(max-width: 700px)"' é um atributo que vai carregar o conteúdo de 'srcset' com o 'type' de 'png' caso a página tenha menos de '700px' de largura (Caso seja desejar carregar uma imagem menor quando for por exemplo: até 350px; necessita de declarar um <source> acima do atual para que ele funcione)
+
+
+
+
+------- Aula 2 (Imagens que se adaptam sozinhas) -------
+
+
+------- Aula 3 (Colocando áudio no seu site) -------
+
+--- HTML ---
+-> <audio> - tag para indicar que será inserido um áudio no site
+    -> <audio preload="auto"> - vai executar o áudio somente quando terminar de fazer o download de todas as informações e a faixa
+    -> <audio preload="metadata"> - vai pegar apenas informações básicas do áudio e só será executado quando o usuário clicar
+    -> <audio preload="none"> - não vai baixar nada até que o usuário clique na reprodução do áudio
+    -> <audio autoplay controls loop> - 'autoplay' faz com que quando o usuário entre no site, já execute o áudio; 'controls' faz com que apareça os controles do áudio, como: som, play/pause, momento atual da música, duração total da música e uma barra de controle do áudio; 'loop' faz com que quando acabar o áudio, seja reproduzido novamente
+        -> <source src="caminho" type="tipo"> - a tag 'source' pode ser declarada dentro de 'audio' para indicar o 'caminho' e o 'tipo' de áudio que será colocado no site (podem haver vários tipos de tags 'source' dentro de 'audio', o primeiro que for executado de cima para baixo será o que será reproduzido, caso falhe, é passado para o próximo tipo de áudio)
+            -> <source src="midia/audio.mp3" type="audio/mpeg"> - para indicar que é um áudio .mp3
+            -> <source src="midia/audio.ogg" type="audio/ogg"> - para indicar que é um áudio .ogg
+            -> <source src="midia/audio.wav" type="audio/wav"> - para indicar que é um áudio .wav
+
+
+
+
+------- Aula 4 (Formatos de vídeo para seu site) -------
+
+--- HTML ---
+-> <video> - tag para indicar que será inserido um vídeo no site
+    -> <video width="tamanho" height="tamanho" poster="tumb" autoplay controls loop> - 'controls' serve para indicar os controladores de vídeo; 'width' serve para indicar o 'tamanho' que aparecerá na tela do site em largura; 'height' serve para indicar o 'tamanho' que aparecerá na tela do site em altura; 'autoplay' é para reproduzir o video quando entrar no site; 'loop' serve para reproduzir novamente o vídeo quando ele acabar; 'poster' é uma 'tumb' que pode colocar no seu vídeo para exibir uma imagem antes de começar a ver o vídeo.
+        -> <source src="caminho" type="tipo"> - 'source' também pode ser colocado na tag 'video' para indicar coisas específicas para vídeos
+            -> <source src="midia/video.mp4" type="video/mp4"> - para indicar que é um vídeo .mp4
+            -> <source src="midia/video.m4v" type="video/m4v"> - para indicar que é um vídeo .m4v
+            -> <source src="midia/video.mkv" type="video/mkv"> - para indicar que é um vídeo .mkv
+            -> <source src="midia/video.webm" type="video/webm"> - para indicar que é um vídeo .webm
+            -> <source src="midia/video.ogv" type="video/ogg"> - para indicar que é um vídeo .ogv
+
+------- Aula 5 (Vídeos em hospedagem própria) -------
+
+
+------- Aula 6 (Incorporação de vídeos externos) -------
+-> Clique em 'Compartilhar' em algum vídeo do YouTube e clique em 'Incorporar', logo em seguida copie o código que foi mostrado e cole no seu site, assim será introduzido um vídeo externo do YouTube no seu site
+
+
+
+
+------- Aula 7 (Desafio: um site com vídeos) -------
+
+
+
+
+-------- Capítulo 12 () --------
+
+------- Aula 1 (Estilos CSS inline) -------
+-> Qualquer tag HTML pode receber o parâmetro style="estilização1; estilização2" para conseguir estilizar de modo inline no site (ele será prevalecido acima do externo ou interno)
+
+--- CSS ---
+-> background-color: cor; - para colorir o fundo da tag na 'cor' especificada (#cor, rbg(r,g,b), rgba(r,g,b,a) ...)
+-> color: cor; - para colorir o texto da tag na 'cor' especificada (#cor, rbg(r,g,b,a), rgba(r,g,b,a) ...)
+-> text-align: tipo; - para alinhar o texto da tag especificada no 'tipo' que desejar (underline, inline, center ...)
+-> font-family: familia; - para definir uma 'familia' de fontes que seu site vai utilizar (Arial, Helvetica, sans-serif ...)
+-> font-size: tamanho; - para definir o 'tamanho' do texto da tag especificada (px, pt, em ...)
+
+
+
+
+------- Aula 2 (Estilos CSS internos) -------
+
+--- HTML ---
+-> <style> - tag para definir todo os comandos CSS possível no seu site (só funciona localmente na página, não será atribuído para outras, ele não é mais poderoso que o inline, mas é mais poderoso que o externo)
+
+
+
+
+------- Aula 3 (Estilos CSS externos) -------
+
+--- HTML ---
+-> <link rel="stylesheet" href="style.css"> - cria uma ligação com um arquivo .css exterior a página em que está editando
+
+
+--- ADICIONAIS ---
+-> Quando um sinal está representado em um determinado tipo de onda (codificação) e precisamos transformá-lo em outro tipo, dizemos que estamos realizando uma: Modulação

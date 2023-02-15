@@ -1,0 +1,309 @@
+-------- Capítulo 18 () --------
+
+------- Aula 1 (O que é Git e Github) -------
+-> Tipos de repositórios:
+    -> Repositório local - os arquivos estão localizados no seu computador, sendo útil também criar versionamentos (Git)
+    -> Repositório remoto - os arquivos estão localizados na internet, sendo útil para deixar na nuvem todos os arquivos (Github)
+
+
+
+
+------- Aula 2 (Instalação) -------
+
+
+------- Aula 3 (Criando uma conta Github) -------
+
+
+------- Aula 4 (Primeiro repositório) -------
+-> 
+
+
+------- Aula 5 (Gerenciando repositórios) -------
+-> 
+
+
+------- Aula 6 (Github Pages) -------
+-> 
+
+
+
+------- Aula 7 (Manutenção em sites no Github) -------
+-> 
+
+
+
+------- Aula 8 (Github Social) -------
+-> 
+
+
+
+
+------- Aula 9 (Clonando repositórios) -------
+-> 
+
+
+
+
+------- Aula 10 (Github em outro PC) -------
+-> 
+
+
+
+
+
+-------- Capítulo 19 () --------
+
+------- Aula 1 (Trabalhando com imagens de fundo) -------
+-> 
+
+--- HTML ---
+
+--- CSS ---
+
+
+
+
+------- Aula 2 (Background-image) -------
+-> 
+
+--- HTML ---
+
+--- CSS ---
+
+
+
+
+------- Aula 3 (Background-repeat) -------
+-> 
+
+--- HTML ---
+
+--- CSS ---
+
+
+------- Aula 4 (Background-position) -------
+-> 
+
+--- HTML ---
+
+--- CSS ---
+
+
+------- Aula 5 (Background-size) -------
+-> 
+
+--- HTML ---
+
+--- CSS ---
+
+
+
+------- Aula 6 (Background-attachment e shorthand) -------
+-> 
+
+--- HTML ---
+
+--- CSS ---
+
+
+
+
+------- Aula 7 (Centralização vertical) -------
+-> 
+
+--- HTML ---
+
+--- CSS ---
+
+
+
+
+
+-------- Capítulo 20 () --------
+
+------- Aula 1 (Um projeto completo usando HTML e CSS) -------
+-> 
+
+--- HTML ---
+
+--- CSS ---
+
+------- Aula 2 (Organizando os arquivos) -------
+-> 
+
+--- HTML ---
+
+--- CSS ---
+
+------- Aula 3 (Ajustando o HTML) -------
+-> 
+
+--- HTML ---
+
+--- CSS ---
+
+
+------- Aula 4 (Ajustando o Estilo) -------
+-> 
+
+--- HTML ---
+
+--- CSS ---
+
+
+------- Aula 5 (Aplicando as Fontes) -------
+-> 
+
+--- HTML ---
+
+--- CSS ---
+
+
+
+------- Aula 6 (Imagens com efeito parallax) -------
+-> 
+
+--- HTML ---
+
+--- CSS ---
+
+
+
+------- Aula 7 (Hospedando o Projeto Cordel) -------
+-> 
+
+--- HTML ---
+
+--- CSS ---
+
+
+
+
+
+
+-------- Capítulo 21 () --------
+
+------- Aula 1 (Quando usar e não usar tabelas) -------
+-> 
+
+--- HTML ---
+
+--- CSS ---
+
+
+
+
+------- Aula 2 (Primeira tabela em HTML) -------
+-> 
+
+--- HTML ---
+
+--- CSS ---
+
+
+
+
+------- Aula 3 (Alinhamento de conteúdos em tabela) -------
+-> 
+
+--- HTML ---
+
+--- CSS ---
+
+------- Aula 4 (Anatomia de tabelas grandes) -------
+-> 
+
+--- HTML ---
+
+--- CSS ---
+
+
+
+
+------- Aula 5 (Caption e Escopo de títulos) -------
+-> 
+
+--- HTML ---
+
+--- CSS ---
+
+
+
+
+------- Aula 6 (Efeito Zebrado) -------
+-> 
+
+--- HTML ---
+
+--- CSS ---
+
+
+
+
+------- Aula 7 (Cabeçalho fixo para tabelas grandes) -------
+
+--- CSS ---
+-> 
+
+--- HTML ---
+
+--- CSS ---
+
+------- Aula 8 (Mesclagem de células) -------
+-> 
+
+--- HTML ---
+
+--- CSS ---
+
+
+------- Aula 9 (Desafios (part. 1)) -------
+
+--- CSS ---
+-> 
+
+--- HTML ---
+
+--- CSS ---
+
+------- Aula 10 (Exemplo de tabela completa) -------
+-> 
+
+--- HTML ---
+
+--- CSS ---
+
+
+------- Aula 11 (Escopos de grupo) -------
+
+--- CSS ---
+-> 
+
+--- HTML ---
+
+--- CSS ---
+
+------- Aula 12 (Desafios (part. 2)) -------
+-> 
+
+--- HTML ---
+
+--- CSS ---
+
+
+
+------- Aula 13 (Agrupando Colunas com colgroup) -------
+
+--- CSS ---
+-> 
+
+--- HTML ---
+
+--- CSS ---
+
+------- Aula 14 (Tabelas responsivas) -------
+-> 
+
+--- HTML ---
+
+--- CSS ---

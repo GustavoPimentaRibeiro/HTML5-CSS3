@@ -1,0 +1,496 @@
+-------- Capítulo 13 () --------
+
+------- Aula 1 (Cores) -------
+-> Cores tem sensações diferentes quando olhamos, instintivamente preferimos cores harmoniozas
+
+
+
+
+------- Aula 2 (Representação de cores) -------
+-> É possível representar de várias formas, como: rgb, rgba, hsl, hsla, hexadecimal e com nome em inglês
+
+
+
+
+------- Aula 3 (Harmonização de cores (pt.1)) -------
+-> Círculo Cromático:
+    -> Tipos de cores:
+        -> Cores Primárias:
+            -> Amarelo
+            -> Vermelho
+            -> Azul
+        -> Cores Secundárias:
+            -> Laranja
+            -> Violeta
+            -> Verde
+        -> Cores Terciárias:
+            -> Amarelo-esverdeado
+            -> Amarelo-alaranjado
+            -> Vermelho-alaranjado
+            -> Vermelho-arroxeado
+            -> Azul-arroxeado
+            -> Azul-esverdeado
+    -> Temperaturas de Cores:
+        -> Cores frias:
+            -> Amarelo-esverdeado
+            -> Verde
+            -> Azul-esverdeado
+            -> Azul
+            -> Azul-arroxeado
+            -> Violeta
+        -> Cores quentes:
+            -> Vermelho-arroxeado
+            -> Vermelho
+            -> Vermelho-alaranjado
+            -> Laranja
+            -> Amarelo-alaranjado
+            -> Amarelo
+    -> Cores Complementares:
+        -> A cores que mais se combinam são os opostos no círculo cromático
+    -> Cores Análogas:
+        -> Cores vizinhas a cor principal selecionada
+    -> Cores Análogas e Complementar:
+        -> É pego cores vizinhas (Análogas) de uma cor principal e a cor complementar a cor principal escolhida para criar harmonia
+    -> Cores Análogas Relacionadas:
+        -> Escolhe duas cores vizinhas uma da outra e pula uma cor no sentido horário/anti-horário, assim pegando a próxima cor depois do pulo
+    -> Cores Intercaladas:
+        -> Escolhe uma cor principal e pula uma cor no sentido horário/anti-horário, logo em seguida pega a próxima cor no sentido em que girou (Até 3 cores)
+    -> Cores Triádicas:
+        -> Escolhe uma cor principal, pula três cores no sentido horário/anti-horário, logo em seguida pega a próxima cor (Até 3 cores)
+    -> Cores em Quadrado:
+        -> Escolhe uma cor principal, pula duas cores no sentido horário/anti-horário, logo em seguida pega a próxima cor (Até 4 cores)
+    -> Cores Tetrádicas:
+        -> Escolha Cores opostas que formam uma intersecção, ou seja, duas opostas que se traçadas cortam as linhas de ligação
+    -> Monocromia:
+        -> Escolha uma cor principal e modifique a saturação e luminosidade dela, formando cores similares para harmonia (Até 4 cores)
+
+
+
+
+------- Aula 4 (Harmonização de cores (pt.2)) -------
+
+
+------- Aula 5 (Captura de cores) -------
+
+
+------- Aula 6 (Cores em CSS) -------
+
+--- CSS ---
+-> background-image: linear-gradient(direcao, cor1, e1, cor2, e2, cor3, e3 ...) - para criar um degradê com uma 'direcao' especificada com as cores 'cor1', 'cor2', 'cor3 ...' e o tamanho ocupado de cada cor com 'e1, 'e2, 'e3 ...'
+    -> background-image: linear-gradient(to right) - da esquerda para a direita
+    -> background-image: linear-gradient(to left) - da direita para a esquerda
+    -> background-image: linear-gradient(to top) - de baixo para cima
+    -> background-image: linear-gradient(to bottom) - de cima para baixo
+    -> background-image: linear-gradient(90deg) - é possível fazer usando graus radianos
+-> background-image: radial-gradient(tipo, cor1, e1, cor2, e2, cor3, e3 ...) - para criar um degradê em formato no 'tipo' especificado com as cores 'cor1', 'cor2', 'cor3 ...' e o tamanho ocupado de cada cor com 'e1, 'e2, 'e3 ...'
+    -> background-image: radial-gradient(circle) - para criar em formato de círculo
+-> * { estilizações globais } - o '*' serve para indicar que é uma configuração global do arquivo de estilização, ou seja, funcionará para tudo no site, até que seja sobrescrito por outra estilização específica
+-> background-attachment: fixed - deixa o fundo de forma fixa
+
+
+
+
+------- Aula 7 (Criando um site harmônico) -------
+
+--- HTML ---
+-> <main> - indica que é a tag de conteúdo principal do site
+
+
+
+
+-------- Capítulo 14 () --------
+
+------- Aula 1 (Tipografia (pt.1)) -------
+-> É necessário usar tipos de letras para coisas específicas no seu site
+
+
+
+
+------- Aula 2 (Tipografia (pt.2)) -------
+
+-> Anatomia do Tipo:
+    -> Ao fazer uma nova fonte, é necessário começar pela letra 'x', pois ela é usada como base para fazer todas as outras, também podemos utilizar os seguintes nomes para falar sobre tamanhos de letras, como:
+        -> altura-x - a altura da letra 'x'
+        -> altura das maiúsculas - tamanho das letras maiúsculas
+        -> ascendente - letras que tem um formato um pouco maior que o 'x', comoo o 'b' e 'l'
+        -> descendente - letras que tem um formato um pouco abaixo que o 'x', como o 'g' e 'p'
+        -> corpo - somatório de todas as alturas, temos o tamanho da fonte total
+    -> Serifa serve para melhorar o fluxo de leitura, pois ela faz uma linha imaginária que é possível "predizer" qual a próxima palavra ao ser lida de forma automática
+    -> Anatomias geométricas:
+        -> haste - todas as barras que estão em pé ou ligeiramente inclinadas nas letras
+        -> filete - todas as barras que estão deitadas, ou se preferir, na horizontal
+        -> arco - toda letra que tem arredondamento como a letra 'n' na parte central, onde fica a "barriga" do 'n'
+        -> esporão - letra que tem algo parecido com a parte de trás de um "salto" (sapato), como a letra 'b' serifada
+        -> vértice - letra que tem uma ponta, como a letra 'A' serifada
+        -> terminal - letra que tem um "final", que não tem um elemento em que está preso, como por exemplo a letra 'r' serifada, a "perninha" na parte direita do 'r' é um terminal
+    -> Anatomias humanizadas:
+        -> braço - toda haste que vai para cima é chamada de braço, como a letra 'k'
+        -> perna - toda haste que vai para baixo é chamada de perna, como a letra 'k'
+        -> pé - toda letra que tem uma base serifada reta, como a letra 'A' serifada
+        -> espinha - letra que tem uma única ligação e tem muitas voltar é chamada de espinha, como a letra 's' serifada
+        -> barriga - toda letra que tem uma parte que faz literalmente o formato de uma 'barriga', como a letra 'b'
+        -> olho - todas as letras que tem buracos fechados, como a letra 'o'
+        -> orelha - letra que tem um "enfeite" na parte cima, funciona só com letras serifadas, como a letra 'g' serifada
+        -> cauda - todas as letras que tem uma parte descendente, como a letra 'g'
+    -> Glifo - tudo que seja uma letra no alfabeto da pessoa
+    -> Fontes - um conjunto de glifos
+    -> Família Tipográfica (existem famílias de fontes que não tem família tipográfica):
+        -> light
+        -> normal
+        -> seminegrito
+        -> negrito
+        -> extranegrito
+    -> Categorias de fontes:
+        -> serifada - que tem alguns elementos visuais que facilitam leitura, preferência para textos digitais ou impressos, porém nos digitais não é recomendado para leituras longas
+        -> sans-serif - para letras sem serifa, preferência para textos longos em telas digitais
+        -> monoespaçadas - todas as letras desta fonte tem letras igualmente espaçadas horizontalmente
+        -> handwriting - para simular uma escrita feita a mão
+        -> display - que não tem nenhuma característica de todas as outras citadas
+
+
+
+
+------- Aula 3 (Família de fontes) -------
+
+--- CSS ---
+-> font-family: Arial, Helvetica, sans-serif - para indicar que será usado esses 3 tipos de fontes para caso um dispositivo não conseguir carregar algum tipo de letra da esquerda para a direita
+    -> sans-serif, serif e monospace - tipos de famílias de fontes que são padrões, será usado o que o dispositivo considera como padrão para cada tipo de letra
+
+
+
+
+------- Aula 4 (Tamanhos de fonte) -------
+
+--- CSS ---
+-> font-size: tamanho - faz com que a fonte fique com o tamanho especificado
+    -> Existem dois tipos de medidas para tamanhos em CSS:
+        -> Medidas absolutas - cm, mm, px, pt, pc
+        -> Medidas relativas - em, ex, rem, vw, vh, %
+            -> Por padrão 1em = 16px
+        -> É recomendado é usar "px" e "em" nos sites
+
+
+
+
+------- Aula 5 (Peso, estilo e shorthand) -------
+
+
+------- Aula 6 (Google Fonts) -------
+
+--- CSS ---
+-> font-size: tamanho - faz com que a fonte da tag tenha o 'tamanho' que desejar
+-> font-weight: tipo - faz com que a fonte tenha um espaço de letra diferente, cada tipo de fonte tem uma quantidade de família tipográfica
+    -> lighter, normal, bold, bolder - tipos de família tipográfica que podem ser usadas para cada tipo de fonte
+    -> 100, 200, 300, 400, 500, 600, 700, 800, 900 - tipos de família tipográfica que podem ser também representadas como numeração de 100 em 100, começando de 100 e indo até 900
+-> font-style: tipo - estilização da fonte de um 'tipo' que pode ser itálico ou normal
+    -> normal e italic - tipo de estilização da fonte
+-> text-decoration: tipo - muda a decoração da fonte especificada para um 'tipo' que deseja
+    -> dashed, dotted, double, line-through, none, overline, solid, underline e wavy - tipos de decorações para colocar na fonte
+-> font: font-style font-weight font-size font-family - é possível declarar todos os tipos de estilizações com fontes em uma só linha utilizando o 'font'
+
+
+
+
+------- Aula 7 (Fontes externas) -------
+-> Utilizar de 3 a 4 fontes no seu site
+-> Alguns navegadores funcionam melhor com fontes com extensão .otf ou .ttf
+
+--- CSS ---
+-> @import url(algo) - indica uma importação para 'algo' na estilização que o site vai utilizar
+-> @font-face { font-family: fonte; src: url('caminho') format('tipo'); font-weight: tamanho; font-style: tipo } - para indicar uma fonte baixada da internet
+    -> font-family: 'fonte' - neste 'font-family' é necessário colocar o nome que vai dar a fonte baixada, onde terá este nome para o resto do arquivo
+    -> format('tipo') - para indicar o 'tipo' de formato da fonte
+        -> opentype (.otf)
+        -> truetype (.ttf)
+        -> embedded-opentype
+        -> truetype-aat (Apple Advanced Typography)
+        -> svg
+
+
+
+
+------- Aula 8 (Fonts Ninja) -------
+
+
+------- Aula 9 (WhatsFontls) -------
+
+
+------- Aula 10 (Alinhamentos) -------
+
+--- CSS ---
+-> text-indent: tamanho - para indicar qual o 'tamanho' da tabulação a cada início de parágrafo
+-> texto-align: tipo - para indicar qual o tipo de alinhamento do texto da tag trabalhada
+
+
+
+
+-------- Capítulo 15 () --------
+
+------- Aula 1 (CSS id) -------
+-> Identificadores (id) são únicos em cada página do site que está desenvolvendo, caso desejar modificar alguma tag específica use o 'id'
+-> Para referenciar um 'id' no CSS é usado o símbolo '#' e o nome do 'id'
+
+--- HTML ---
+-> <tag id="nome"> - cria um identificador para a 'tag' específica com um "nome"
+
+
+
+
+------- Aula 2 (CSS class) -------
+-> Classes (class) é um tipo de formatador universal do site, podem existir muitas classes com nome repetido no site para aplicar a formatação específica para aquele 'class'
+-> Para referenciar um 'class' no CSS é usado o símbolo '.' e o nome do 'class'
+-> Configuração 'id' sobrepõe a configuração 'class'
+
+--- HTML ---
+-> <tag class="nome1 nome2 nome3 ...."> - cria uma classe para a 'tag' específica com um "nome1" sozinho, ou, "nome1", "nome2", "nome3" ... assim sucessivamente
+
+
+
+
+------- Aula 3 (CSS pseudo-class) -------
+-> É possível utilizar o caractere '>' para indicar que você deseja modificar a outra tag que está contida em outra, por exemplo, "div > p" eu vou mexer na tag 'p' contida em 'div'
+
+--- CSS ---
+-> display: tipo - é um formatador de 'tipo' de demonstração será feito com alguns elementos, por exemplo várias fotos juntas, é possível alinhar de diversas formas
+    -> block - para alinhar em formato de blocos, igual a abrir uma <div>
+    -> inline-block - para alinhar da esquerda para a direita o que seria de cima para baixo
+    -> none - para não mostrar a tag que está sofrendo esta ação
+-> div > p { formatações } - para indicar que você irá formatar a tag 'p' contida em 'div'
+-> tag:hover { formatações } - para indicar que haverá 'formatações' para quando passar o mouse em cima da 'tag'
+
+
+
+
+------- Aula 4 (CSS pseudo-element) -------
+-> Resumo de todas os elementos:
+    -> #    - id
+    -> .    - class
+    -> :    - pseudo-class
+    -> ::   - pseudo-element
+    -> >    - children
+
+--- CSS ---
+-> a:visited { formatações } - para formatar a tag 'a' depois dela ter sido visitada através deste link
+-> a:active { formatações } - para formatar a tag 'a' depois de alguem clicar com o mouse ou segurar o click do mouse neste link
+-> tag::after { formatações } - para inserir formatações depois da 'tag'
+-> tag::before { formatações } - para inserir formatações antes da 'tag'
+
+
+
+
+-------- Capítulo 16 () --------
+
+------- Aula 1 (Modelos de Caixas) -------
+-> Camadas de um Modelo de Caixa:
+    -> height - altura da caixa
+    -> width - largura da caixa
+    -> border - borda da caixa
+    -> padding - espaçamento interno da caixa (está antes do 'border')
+    -> margin - margem externa da caixa (está depois do border)
+    -> outline - borda externa (fica dentro do espaço da 'margin', está depois do 'border')
+-> Tipos de Caixas:
+    -> box-level - ele não concatena caixas uma ao lado da outra de forma a "passar" o limite da janela do navegador
+        -> <div>
+        -> <h1> ... <h6>
+        -> <main>
+        -> <header>
+        -> <nav>
+        -> <article>
+        -> <aside>
+        -> <footer>
+        -> <form>
+        -> <video>
+    -> inline-level - ele concatena caixas uma ao lado da outra de forma a não importar com os conteúdos
+        -> <span>
+        -> <a>
+        -> <code>
+        -> <small>
+        -> <strong>
+        -> <em>
+        -> <sup> | <sub>
+        -> <label>
+        -> <button>
+        -> <input>
+        -> <select>
+
+
+
+
+------- Aula 2 (Praticando box model) -------
+-> user agent - navegador quem configurou automaticamente
+
+--- CSS ---
+-> border: border-width border-style border-color - faz uma borda com os parâmetros em sequência
+-> border-width: tamanho - 'tamanho' da borda
+-> border-style: tipo - 'tipo' de borda
+    -> solid - borda 100% preenchida
+    -> dashed - borda pontilhada (traços horizontais e verticais)
+    -> dotted - borda pontilhada (círculos)
+    -> double - linha dupla com espaçamento entre elas
+    -> groove - efeito 3D a tag trabalhada
+-> border-color: cor - 'cor' da borda
+
+-> padding: cima baixo direita esquerda - todos os parâmetros da tag 'padding' são de 'tamanho', é feito no sentido horário a atribuição dos espaçamentos internos da tag trabalhada
+    -> padding: todos - com um parâmetro ele configura para todos os lados da tag
+    -> padding: vertical horizontal - com dois parâmetros ele configura todos os espaços da 'vertical' (cima e baixo) e todos da 'horizontal' (esquerda e direita)
+-> padding-top: tamanho - da um espaçamento interno no topo da tag trabalhada com o 'tamanho' especificado
+-> padding-right: tamanho - da um espaçamento interno na direita da tag trabalhada com o 'tamanho' especificado
+-> padding-bottom: tamanho - da um espaçamento interno abaixo da tag trabalhada com o 'tamanho' especificado
+-> padding-left: tamanho -da um espaçamento interno na esquerda da tag trabalhada com o 'tamanho' especificado
+
+-> margin: cima baixo direita esquerda - todos os parâmetros da tag 'margin' são de 'tamanho', é feito no sentido horário a atribuição das margens externas da tag trabalhada
+    -> margin: auto - centraliza a caixa específica para o meio da página
+    -> margin: cima auto baixo auto - centraliza a caixa horizontalmente e coloca espaçamentos diferentes acima e abaixo
+    -> margin: todos - com um parâmetro ele configura para todos os lados da tag
+    -> margin: vertical horizontal - com dois parâmetros ele configura todos os espaços da 'vertical' (cima e baixo) e todos da 'horizontal' (esquerda e direita)
+-> margin-top: tamanho - da uma margem externa no topo da tag trabalhada com o 'tamanho' especificado
+-> margin-right: tamanho - da uma margem externa na direita da tag trabalhada com o 'tamanho' especificado
+-> margin-bottom: tamanho - da uma margem externa abaixo da tag trabalhada com o 'tamanho' especificado
+-> margin-left: tamanho -da uma margem externa na esquerda da tag trabalhada com o 'tamanho' especificado
+
+-> outline: outline-width outline-style outline-color - faz uma borda externa com os parâmetros em sequência
+-> outline-width: tamanho - 'tamanho' da borda externa
+-> outline-style: tipo - 'tipo' de borda externa
+    -> solid - borda 100% preenchida
+    -> dashed - borda pontilhada (traços horizontais e verticais)
+    -> dotted - borda pontilhada (círculos)
+    -> double - linha dupla com espaçamento entre elas
+    -> groove - efeito 3D a tag trabalhada
+-> outline-color: cor - 'cor' da borda externa
+
+
+
+
+------- Aula 3 (Shorthands úteis) -------
+
+
+------- Aula 4 (Grouping Tags semânticas) -------
+
+--- HTML ---
+-> <header> - cabeçalho da página (sentido semântico)
+-> <main> - contéudo principal da página (sentido semântico)
+-> <footer> - rodapé da página (sentido semântico)
+-> <nav> - menu de navegação da página (sentido semântico)
+-> <section> - declarar seções da página (sentido semântico)
+-> <article> - seção de artigo da página (sentido semântico)
+-> <aside> - conteúdo periférico a um '<article>' (sentido semântico)
+
+
+
+
+------- Aula 5 (Sombras nas Caixas) -------
+
+--- CSS ---
+-> box-shadow: deslocamento_horizontal deslocamento_vertical espalhamento cor_da_sombra - para fazer uma sombra externa a tag trabalhada, utilize os parâmetros nesta ordem especificada
+-> box-shadow: inset deslocamento_horizontal deslocamento_vertical espalhamento cor_da_sombra - para fazer uma sombra interna a tag trabalhada, utilize os parâmetros nesta ordem especificada, a palavra chave 'inset' indica que é sombra externa
+
+
+
+
+------- Aula 6 (Vértices arredondados) -------
+
+--- CSS ---
+-> border-radius: topo-esquerdo topo-direito esquerda-abaixo direita-abaixo - faz o arredondamento da tag trabalhada dos tamanhos que desejar para cada um dos parâmetros
+    -> border-radius: todas - com um parâmetro faz arredondamento para 'todas' as bordas
+    -> border-radius: topo-esquerdo-direita-abaixo topo-direito-esquerda-abaixo - com dois parâmetros faz o arredondamento do 'topo-esquerda' e 'direita-abaixo', e no segundo parâmetro 'topo-direito' e 'esquerda-abaixo'
+-> border-top-left-radius: tamanho - faz uma borda arredondada na tag trabalhada no topo esquerdo com o 'tamanho' especificado
+-> border-top-right-radius: tamanho - faz uma borda arredondada na tag trabalhada no topo direito com o 'tamanho' especificado
+-> border-bottom-left-radius: tamanho - faz uma borda arredondada na tag trabalhada na esquerda abaixo com o 'tamanho' especificado
+-> border-bottom-right-radius: tamanho - faz uma borda arredondada na tag trabalhada na direita abaixo com o 'tamanho' especificado
+
+
+
+
+------- Aula 7 (Bordas com imagem) -------
+
+--- CSS ---
+-> border-image: border-imagem-source border-image-slice border-image-repeat - faz a configuração da imagem na borda de forma simplificada
+-> border-image-source: url("arquivo") - faz com que a borda da tag seja preenchida com a imagem do "arquivo" que desejar
+-> border-image-slice: valor - faz com que a borda seja fatiada com o 'valor' passado por parâmetro
+-> border-image-repeat: tipo - faz com que a imagem passada por parâmetro em 'border-image-source' seja repetida ao longo da borda feita
+    -> repeat - repete as imagens
+    -> stretch - faz com que ele estique a imagem para encaixar na borda
+
+------- Aula 8 (Desafio site completo) -------
+
+
+
+
+
+-------- Capítulo 17 () --------
+
+------- Aula 1 (Criando um projeto do zero) -------
+
+
+------- Aula 2 (Como vai ficar o projeto pronto) -------
+
+
+------- Aula 3 (Wireframe, paleta e tipografia) -------
+-> MockFlow é responsável por criar um wireframe, que seria uma prévia de site
+
+
+
+
+------- Aula 4 (Aplicando o Wireframe) -------
+
+
+------- Aula 5 (Organizando o conteúdo) -------
+
+
+------- Aula 6 (Variáveis em CSS) -------
+-> É possível criar variáveis em CSS utilizando alguns tipos de palavras reservadas, serve para qualquer tipo de coisa que tenha relação com CSS
+
+--- CSS ---
+-> :root { --v1, --v2, --v3 ... } - é possível declarar variáveis em CSS utilizando o ':root' que indica a raiz do CSS, '--v1', '--v2', '--v3 ...' são variáveis que você pode declarar dentro do CSS, lembrando que todas elas precisam de ter um prefixo de '--' para funcionar
+-> background-color: var(--v1) - este exemplo é para mostrar como utilizar a variável no CSS, utilize a função 'var()' com o nome da variável que deseja utilizar dentro, neste caso a 'v1'
+
+
+
+
+------- Aula 7 (Responsividade) -------
+-> Utilizar 'width: 100%' no CSS em uma tag '<img>' faz com que ela ocupe a tela de forma responsiva
+
+--- CSS ---
+-> min-width: tamanho - para controlar o 'tamanho' mínimo de largura da tag trabalhada
+-> max-width: tamanho - para controlar o 'tamanho' máximo de largura da tag trabalhada
+
+
+
+
+------- Aula 8 (Tornando um site responsivo) -------
+
+
+------- Aula 9 (Personalizando o topo) -------
+
+--- CSS ---
+-> transition-duration: tempo - faz com que a tag trabalhada tenha um efeito de esmaecer no 'tempo' determinado, geralmente usado com alguma 'tag:hover'
+
+
+
+
+------- Aula 10 (Estilizando o conteúdo) -------
+
+--- CSS ---
+-> line-height: tamanho - faz com que o espaçamento de linhas fique com o 'tamanho' especificado
+
+
+
+
+------- Aula 11 (Rodapé e Aside) -------
+
+--- CSS ---
+-> list-style-position: tipo - para modificar o 'tipo' posicionamento da lista criada
+    -> inside - para encaixar todo o conteúdo da lista em uma tag maior que ela
+-> list-style-type: 'algo/codigo-do-emoji' - para modificar o tipo de símbolo em cada uma das posições da lista, é possível colocar qualquer coisa. Também é possível utilizar emoji passando como parâmetro '\codigo-do-emoji', é necessário colocar uma contra barra antes e o código do emoji
+-> \00A0 - para inserir um espaço em branco em uma string, seja ela de qualquer tag que abra aspas duplas ou simples
+-> columns: valor - ajeita o contéudo da lista para o número do 'valor' passado como parâmetro, se for '2' o 'valor', então será dividido o conteúdo em duas colunas
+
+
+
+
+------- Aula 12 (Vídeo adaptável) -------
+-> Para conseguir inserir um vídeo adaptável do YouTube, é necessário englobar em uma '<div>' e configurar:
+    -> position (<div> é relative e <iframe> é absolute)
+    -> padding/margin (em porcentagem)
+    -> top/left/right/bottom (em porcentagem)
+    -> width/height (em porcentagem)
