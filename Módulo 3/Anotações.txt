@@ -157,126 +157,135 @@
 -------- Capítulo 21 () --------
 
 ------- Aula 1 (Quando usar e não usar tabelas) -------
--> 
-
---- HTML ---
-
---- CSS ---
+-> Não usar tabela para criar estrutura do site
 
 
 
 
 ------- Aula 2 (Primeira tabela em HTML) -------
--> 
+-> Hierarquia de tabelas SIMPLES:
+    -> Table - tabela
+        -> Table row - linha da tabela
+            -> Table header - cabeçalho da tabela
+            -> Table data - dado da tabela
+-> Não obedecer a hierarquia de tabelas faz com que os outros elementos fiquem antes ou depois da tabela
 
 --- HTML ---
+-> <table> - adiciona uma tag de tabela no seu HTML
+    -> <tr> - para criar uma tag de linha da tabela
+        -> <td> - para criar uma tag de dado da tabela
 
 --- CSS ---
+-> border-collapse: tipo - cria um estilo de borda para a borda da tabela do 'tipo' que deseja
+    -> separate - o valor padrão para 'border-collapse' é 'separate', que faz com que todos os elementos fiquem separados
+    -> collapse - faz com que todos os elementos não fiquem separados, ou seja, todos ficam grudados ao outro
 
 
 
 
 ------- Aula 3 (Alinhamento de conteúdos em tabela) -------
--> 
-
---- HTML ---
 
 --- CSS ---
+-> vertical-align: tipo - faz com que as células de uma tabela se alinhem de forma vertical
+    -> top - alinhamento acima em relação a célula
+    -> bottom - alinhamento abaixo em relação a célula
+    -> middle - alinhamento central em relação a célula
+
+
+
 
 ------- Aula 4 (Anatomia de tabelas grandes) -------
--> 
+-> Anatomia para tabelas grandes:
+    -> Table - tabela
+        -> Caption - legenda da tabela
+        -> Thead - cabeçalho da tabela
+            -> <tr>, <td> e <th>
+        -> Tbody - corpo da tabela
+            -> <tr>, <td> e <th>
+        -> Tfoot - rodapé da tabela
+            -> <tr>, <td> e <th>
 
 --- HTML ---
+-> <th> - para indicar a formatação especificamente no cabeçalho e rodapé da tabela, no caso, as colunas principais da tabela
 
---- CSS ---
+-> <caption> - tag para criação de uma legenda para a tabela (independe da ordem se declarado dentro de uma <table>, o navegador sabe onde colocar)
+-> <thead> - tag para criação da cabeçalho da tabela (independe da ordem se declarado dentro de uma <table>, o navegador sabe onde colocar)
+    -> <td> <tr> <th> - pode conter esses elementos nesta tag da tabela
+-> <tbody> - tag para criação do corpo da tabela (independe da ordem se declarado dentro de uma <table>, o navegador sabe onde colocar)
+    -> <td> <tr> <th> - pode conter esses elementos nesta tag da tabela
+-> <tfoot> - tag para criação do rodapé da tabela (independe da ordem se declarado dentro de uma <table>, o navegador sabe onde colocar)
+    -> <td> <tr> <th> - pode conter esses elementos nesta tag da tabela
 
 
 
 
 ------- Aula 5 (Caption e Escopo de títulos) -------
--> 
 
 --- HTML ---
-
---- CSS ---
+-> <th scope="tipo"> - para declarar o 'tipo' do escopo da definição de uma célula de uma tabela
+    -> "row" - para indicar que é um título da linha da tabela
+    -> "col" - para indicar que é um título da coluna da tabela
 
 
 
 
 ------- Aula 6 (Efeito Zebrado) -------
--> 
-
---- HTML ---
 
 --- CSS ---
+-> tbody > tr:nth-child('valor'n) { formatação } - cria uma definição de subclasse para linhas da tabela que vão aplicar somente no 'valor' específico, suponha que o valor seja '3n', de 3 em 3 linhas da tabela, será aplicado a 'formatação' específica (a letra 'n' é obrigatório como sufixo)
+    -> odd/2n-1 - também aceita valores como o 'ímpar'(odd)
+    -> even/2n - também aceita valores como o 'par'(even)
 
 
 
 
 ------- Aula 7 (Cabeçalho fixo para tabelas grandes) -------
 
---- CSS ---
--> 
-
---- HTML ---
+-> Para conseguir deixar o cabeçalho fixo é necessário deixar a <table> com 'position: relative' e a 'thead > tr > th' precisa ter 'position: sticky; top: -1px; background-color: cor_do_cabeçalho;' para funcionar normalmente
 
 --- CSS ---
+-> position: sticky - faz com que a tag trabalhada fique com a propriedade de "grudar"
+
+
+
 
 ------- Aula 8 (Mesclagem de células) -------
--> 
 
 --- HTML ---
+-> <td colspan="valor"> - tag para criação de uma junção de colunas de células, o "valor" é o número de colunas que deseja ocupar com aquele dado
+-> <td rowspan="valor"> - tag para criação de uma junção de linhas de células, o "valor" é o número de linhas que deseja ocupar com aquele dado
 
---- CSS ---
+
 
 
 ------- Aula 9 (Desafios (part. 1)) -------
 
---- CSS ---
--> 
-
---- HTML ---
-
---- CSS ---
 
 ------- Aula 10 (Exemplo de tabela completa) -------
--> 
-
---- HTML ---
-
---- CSS ---
 
 
 ------- Aula 11 (Escopos de grupo) -------
+-> Quando usa-se uma tabela com uma coluna com <thead><tr><th> ocupando 3 colunas, é usado '<th colspan="3" scope="colgroup">' o 'colgroup' no 'scope', para ele identificar como todos os dados sendo das 3 colunas
 
---- CSS ---
--> 
 
---- HTML ---
 
---- CSS ---
 
 ------- Aula 12 (Desafios (part. 2)) -------
--> 
-
---- HTML ---
-
---- CSS ---
-
 
 
 ------- Aula 13 (Agrupando Colunas com colgroup) -------
 
---- CSS ---
--> 
-
 --- HTML ---
+-> <colgroup> - tag para a criação de formatações específicas para cada coluna da sua tabela
+    -> <col> - tag que fica dentro de '<colgroup>' para indicar uma coluna da tabela, você deve fazer um '<col>' para cada uma das colunas que existem na tabela, desta forma é possível coloca um 'id' ou uma 'class' para cada '<col>' e formatá-los como quiser
+    -> <col span="valor"> - é possível também utilizar o 'span="valor"' para indicar que vai ser feito uma formatação daquela coluna com a do lado dela, ou seja, supunha que "valor" seja 3, logo o '<col>' agora está valendo por 3 colunas da tabela, e também será formatado as 3 colunas juntas ao mesmo tempo
 
---- CSS ---
+
+
 
 ------- Aula 14 (Tabelas responsivas) -------
--> 
-
---- HTML ---
+-> Para deixar a tabela dinâmica, envolva ela em uma '<div>' e estilize-a com 'overflow-x: auto', desta forma, se a tabela ficar muito grande para o eixo do x ela criará uma barra de rolagem
 
 --- CSS ---
+-> overflow-x: tipo - estilização para que se o conteúdo que estiver sofrendo a ação do 'overflow-x' for muito grande no eixo do x, então ele irá criar uma barra de rolagem horizontal somente para a tag trabalhada, não atrapalhando o resto do site
+    -> auto - faz de forma automática
