@@ -8,7 +8,7 @@
     --cor1: #ffffff;
     --cor2: #000000;
     --cor3: #0000002f;
-    --cor4: #a9a9a9;
+    --cor4: #2b2b2b;
 
     --corpo: 'Sriracha', cursive;
     --cabecalho: 'Passion One', cursive;
@@ -41,7 +41,7 @@ header {
 
 header h1 {
     font-variant: small-caps;
-    font-size: 2.5em;
+    font-size: 6vw;
 }
 
 header a {
@@ -56,20 +56,46 @@ header a:hover {
 
 
 /* Corpo do site */
-main section {
+section {
     padding-top: 10vh;
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
+    font-size: 3vw;
+}
+
+section > p {
+    padding-bottom: 2em;
 }
 
 section.imagem {
-    background-color: var(--cor2);
+    background-color: var(--cor4);
     color: var(--cor1);
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.4);
+    background-attachment: fixed;
+}
+
+section.imagem > p {
+    display: inline-block;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.4);
+    text-shadow: 1px 1px 0px black;
 }
 
 section.normal {
     background-color: var(--cor1);
+}
+
+section#imagem1 {
+    background-image: url('../imagens/background001.jpg');
+    background-position: right center;
+    background-size: cover;
+}
+
+section#imagem2 {
+    background-image: url('../imagens/background002.jpg');
+    background-position: right center;
+    background-size: cover;
 }
 
 

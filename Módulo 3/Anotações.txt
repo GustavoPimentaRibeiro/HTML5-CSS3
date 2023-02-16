@@ -141,31 +141,15 @@
 
 
 ------- Aula 5 (Aplicando as Fontes) -------
--> 
-
---- HTML ---
-
---- CSS ---
-
 
 
 ------- Aula 6 (Imagens com efeito parallax) -------
--> 
+-> Foi possível pelo fato de usar 'background-size: cover' na imagem, 'padding-top: 10vh' e 'padding-bottom: 10vh' para a 'section' e 'background-attachment: fixed' no 'section.imagem', criando assim um efeito parallax
 
---- HTML ---
-
---- CSS ---
 
 
 
 ------- Aula 7 (Hospedando o Projeto Cordel) -------
--> 
-
---- HTML ---
-
---- CSS ---
-
-
 
 
 
