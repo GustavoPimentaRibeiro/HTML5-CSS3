@@ -1,39 +1,45 @@
 -------- Capítulo 22 () --------
 
 ------- Aula 1 (Nosso primeiro iframe) -------
--> 
+-> Existem sites que recusam a requisição se estiverem dentro de iframes
+
 
 --- HTML ---
+-> <iframe src="caminho" frameborder="valor"> - tag para criação de uma instância de outro site ou outra página do seu próprio site na página atual de forma 'inline', apenas necessita do "caminho" e o "valor" do 'frameborder', que define o estilo de borda (É possívle escrever algo dentro da tag, mas aparecerá somente se não for possível entrar na página do iframe, também é possível redirecionar com uma tag <a>)
+    -> Outros parâmetros opcionais no <iframe>:
+        -> name: "nome" - para nomear o iframe e ser possível indexar numa tag <a>, é só colocar o atributo 'target' da tag <a> com o mesmo 'name' do <iframe>
+        -> width: "tamanho" - largura do conteúdo
+        -> height: "tamanho" - altura do conteúdo
+        -> scrolling: "tipo" - sobre opções de rolagem
+            -> auto - para criar barra de rolagem se necessário
+            -> yes - para criar barra de rolagem
+            -> no - para não criar barra de rolagem mesmo que exceda o conteúdo
+        -> srcdoc: "código HTML" - é possível escrever HTML dentro desse parâmetro (tome cuidado, pois as aspas duplas de qualquer tag com parâmetros necessitará ser com aspas simples, e não duplas)
 
---- CSS ---
+
+
 
 ------- Aula 2 (Configurações do iframe) -------
--> 
+-> O tamanho padrão do iframe é 300px x 150px
+-> O CSS tem predomínio sobre a estilização do '<iframe>' dentro do HTML
 
---- HTML ---
 
---- CSS ---
+
 
 ------- Aula 3 (Conteúdo local no iframe) -------
--> 
+-> Há problemas de busca de indexação de tabelas usando iframe, caso contenha alguma informação que precise de indexação, utilize uma div ao invés de iframe
 
---- HTML ---
 
---- CSS ---
+
 
 ------- Aula 4 (Navegação no iframe) -------
--> 
+-> É possível indexar o <iframe> dentro de uma tag <a>, dando um 'name' para o <iframe> e colocando o atributo 'target' do <a> com o mesmo nome do <iframe>
 
---- HTML ---
 
---- CSS ---
+
 
 ------- Aula 5 (Conteúdo estático em iframe) -------
--> 
 
---- HTML ---
-
---- CSS ---
 
 ------- Aula 6 (Inconvenientes do iframe) -------
 -> 
