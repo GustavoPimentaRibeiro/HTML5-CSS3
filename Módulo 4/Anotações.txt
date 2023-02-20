@@ -1,57 +1,74 @@
--------- Capítulo 18 () --------
+-------- Capítulo 22 () --------
 
-------- Aula 1 (O que é Git e Github) -------
+------- Aula 1 (Nosso primeiro iframe) -------
 -> 
 
+--- HTML ---
 
-------- Aula 2 (Instalação) -------
+--- CSS ---
+
+------- Aula 2 (Configurações do iframe) -------
 -> 
 
+--- HTML ---
 
-------- Aula 3 (Criando uma conta Github) -------
+--- CSS ---
+
+------- Aula 3 (Conteúdo local no iframe) -------
 -> 
 
+--- HTML ---
 
-------- Aula 4 (Primeiro repositório) -------
+--- CSS ---
+
+------- Aula 4 (Navegação no iframe) -------
 -> 
 
+--- HTML ---
 
-------- Aula 5 (Gerenciando repositórios) -------
+--- CSS ---
+
+------- Aula 5 (Conteúdo estático em iframe) -------
 -> 
 
+--- HTML ---
 
-------- Aula 6 (Github Pages) -------
+--- CSS ---
+
+------- Aula 6 (Inconvenientes do iframe) -------
 -> 
 
+--- HTML ---
 
+--- CSS ---
 
-------- Aula 7 (Manutenção em sites no Github) -------
+------- Aula 7 (Tornando iframes mais seguros) -------
 -> 
 
+--- HTML ---
 
+--- CSS ---
 
-------- Aula 8 (Github Social) -------
+------- Aula 8 (Dicas interessantes para iframes) -------
 -> 
 
+--- HTML ---
+
+--- CSS ---
 
 
 
-------- Aula 9 (Clonando repositórios) -------
+-------- Capítulo 23 () --------
+
+------- Aula 1 (Projeto Redes Sociais) -------
 -> 
 
+--- HTML ---
+
+--- CSS ---
 
 
-
-------- Aula 10 (Github em outro PC) -------
--> 
-
-
-
-
-
--------- Capítulo 19 () --------
-
-------- Aula 1 (Trabalhando com imagens de fundo) -------
+------- Aula 2 (Organizando arquivos do do projeto) -------
 -> 
 
 --- HTML ---
@@ -61,7 +78,32 @@
 
 
 
-------- Aula 2 (Background-image) -------
+------- Aula 3 (Criando a página principal) -------
+-> 
+
+--- HTML ---
+
+--- CSS ---
+
+
+------- Aula 4 (Posicionando o conteúdo na tela) -------
+-> 
+
+--- HTML ---
+
+--- CSS ---
+
+
+------- Aula 5 (Criando os botões de redes sociais) -------
+-> 
+
+--- HTML ---
+
+--- CSS ---
+
+
+
+------- Aula 6 (Criando as páginas de cada rede) -------
 -> 
 
 --- HTML ---
@@ -71,103 +113,7 @@
 
 
 
-------- Aula 3 (Background-repeat) -------
--> 
-
---- HTML ---
-
---- CSS ---
-
-
-------- Aula 4 (Background-position) -------
--> 
-
---- HTML ---
-
---- CSS ---
-
-
-------- Aula 5 (Background-size) -------
--> 
-
---- HTML ---
-
---- CSS ---
-
-
-
-------- Aula 6 (Background-attachment e shorthand) -------
--> 
-
---- HTML ---
-
---- CSS ---
-
-
-
-
-------- Aula 7 (Centralização vertical) -------
--> 
-
---- HTML ---
-
---- CSS ---
-
-
-
-
-
--------- Capítulo 20 () --------
-
-------- Aula 1 (Um projeto completo usando HTML e CSS) -------
--> 
-
---- HTML ---
-
---- CSS ---
-
-------- Aula 2 (Organizando os arquivos) -------
--> 
-
---- HTML ---
-
---- CSS ---
-
-------- Aula 3 (Ajustando o HTML) -------
--> 
-
---- HTML ---
-
---- CSS ---
-
-
-------- Aula 4 (Ajustando o Estilo) -------
--> 
-
---- HTML ---
-
---- CSS ---
-
-
-------- Aula 5 (Aplicando as Fontes) -------
--> 
-
---- HTML ---
-
---- CSS ---
-
-
-
-------- Aula 6 (Imagens com efeito parallax) -------
--> 
-
---- HTML ---
-
---- CSS ---
-
-
-
-------- Aula 7 (Hospedando o Projeto Cordel) -------
+------- Aula 7 (Personalizando as imagens do projeto) -------
 -> 
 
 --- HTML ---
@@ -178,10 +124,84 @@
 
 
 
+-------- Capítulo 24 () --------
 
--------- Capítulo 21 () --------
+------- Aula 1 (Criando o primeiro Formuláriomp4) -------
+-> 
 
-------- Aula 1 (Quando usar e não usar tabelas) -------
+--- HTML ---
+
+--- CSS ---
+
+------- Aula 2 (Aprimorando Formulários com Label) -------
+-> 
+
+--- HTML ---
+
+--- CSS ---
+
+------- Aula 3 (Métodos GET e POST) -------
+-> 
+
+--- HTML ---
+
+--- CSS ---
+
+
+------- Aula 4 (Atributos para input text e password) -------
+-> 
+
+--- HTML ---
+
+--- CSS ---
+
+
+------- Aula 5 (Elementos number month date e time) -------
+-> 
+
+--- HTML ---
+
+--- CSS ---
+
+
+
+------- Aula 6 (Compatibilidade com formulários) -------
+-> 
+
+--- HTML ---
+
+--- CSS ---
+
+
+
+------- Aula 7 (Formulários com telefone e email) -------
+-> 
+
+--- HTML ---
+
+--- CSS ---
+
+
+
+------- Aula 8 (Checkbox e radio) -------
+-> 
+
+--- HTML ---
+
+--- CSS ---
+
+
+
+------- Aula 9 (Color, range e file) -------
+-> 
+
+--- HTML ---
+
+--- CSS ---
+
+
+
+------- Aula 10 (Select, datalist e textarea) -------
 -> 
 
 --- HTML ---
@@ -191,7 +211,18 @@
 
 
 
-------- Aula 2 (Primeira tabela em HTML) -------
+------- Aula 11 (Output em Formulários HTML) -------
+-> 
+
+--- HTML ---
+
+--- CSS ---
+
+
+
+-------- Capítulo 25 () --------
+
+------- Aula 1 (O que são Media Queries?) -------
 -> 
 
 --- HTML ---
@@ -201,14 +232,7 @@
 
 
 
-------- Aula 3 (Alinhamento de conteúdos em tabela) -------
--> 
-
---- HTML ---
-
---- CSS ---
-
-------- Aula 4 (Anatomia de tabelas grandes) -------
+------- Aula 2 (Preparando um site para impressão) -------
 -> 
 
 --- HTML ---
@@ -218,7 +242,16 @@
 
 
 
-------- Aula 5 (Caption e Escopo de títulos) -------
+------- Aula 3 (Múltiplas Media Features) -------
+-> 
+
+--- HTML ---
+
+--- CSS ---
+
+
+
+------- Aula 4 (Seguindo a orientação do dispositivo(part. 1)) -------
 -> 
 
 --- HTML ---
@@ -228,7 +261,7 @@
 
 
 
-------- Aula 6 (Efeito Zebrado) -------
+------- Aula 5 (Seguindo a orientação do dispositivo(part. 2)) -------
 -> 
 
 --- HTML ---
@@ -238,50 +271,7 @@
 
 
 
-------- Aula 7 (Cabeçalho fixo para tabelas grandes) -------
-
---- CSS ---
--> 
-
---- HTML ---
-
---- CSS ---
-
-------- Aula 8 (Mesclagem de células) -------
--> 
-
---- HTML ---
-
---- CSS ---
-
-
-------- Aula 9 (Desafios (part. 1)) -------
-
---- CSS ---
--> 
-
---- HTML ---
-
---- CSS ---
-
-------- Aula 10 (Exemplo de tabela completa) -------
--> 
-
---- HTML ---
-
---- CSS ---
-
-
-------- Aula 11 (Escopos de grupo) -------
-
---- CSS ---
--> 
-
---- HTML ---
-
---- CSS ---
-
-------- Aula 12 (Desafios (part. 2)) -------
+------- Aula 6 (Mobile First - HTML5 e CSS3) -------
 -> 
 
 --- HTML ---
@@ -290,7 +280,8 @@
 
 
 
-------- Aula 13 (Agrupando Colunas com colgroup) -------
+
+------- Aula 7 (Iniciando um site mobile first) -------
 
 --- CSS ---
 -> 
@@ -299,9 +290,96 @@
 
 --- CSS ---
 
-------- Aula 14 (Tabelas responsivas) -------
+------- Aula 8 (Device breakpoints) -------
 -> 
 
 --- HTML ---
 
 --- CSS ---
+
+
+------- Aula 9 (Exercício menu responsivo) -------
+
+--- CSS ---
+-> 
+
+--- HTML ---
+
+--- CSS ---
+
+------- Aula 10 (Configuranod layout do projeto) -------
+-> 
+
+--- HTML ---
+
+--- CSS ---
+
+
+------- Aula 11 (Criando um menu hambúrguer) -------
+
+--- CSS ---
+-> 
+
+--- HTML ---
+
+--- CSS ---
+
+------- Aula 12 (Media queries para outros dispositivos) -------
+-> 
+
+--- HTML ---
+
+--- CSS ---
+
+
+
+
+
+-------- Capítulo 25 () --------
+
+------- Aula 1 (Início do projeto tela de login) -------
+-> 
+
+--- HTML ---
+
+--- CSS ---
+
+------- Aula 2 (Versão mobile first da tela de login) -------
+-> 
+
+--- HTML ---
+
+--- CSS ---
+
+------- Aula 3 (Outras media queries para login) -------
+-> 
+
+--- HTML ---
+
+--- CSS ---
+
+
+------- Aula 4 (Criando o formulário de login) -------
+-> 
+
+--- HTML ---
+
+--- CSS ---
+
+
+------- Aula 5 (Aplicando estilo ao formulário de login) -------
+-> 
+
+--- HTML ---
+
+--- CSS ---
+
+
+
+------- Aula 6 (Finalizando projeto tela de login) -------
+-> 
+
+--- HTML ---
+
+--- CSS ---
+
