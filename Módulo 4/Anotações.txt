@@ -15,6 +15,12 @@
             -> yes - para criar barra de rolagem
             -> no - para não criar barra de rolagem mesmo que exceda o conteúdo
         -> srcdoc: "código HTML" - é possível escrever HTML dentro desse parâmetro (tome cuidado, pois as aspas duplas de qualquer tag com parâmetros necessitará ser com aspas simples, e não duplas)
+        -> sandbox: "sandbox" - bloqueia todos os métodos de leitura/escrita do iframe indexado, ideal para maior segurança, como: XSS e CrossScript
+            -> allow-same-origin - permissão para coisas da mesma origem
+            -> allow-forms - permissão para uso de formulários
+            -> allow-scripts - permissão para uso de scripts
+        -> referrerpolicy: "no-referrer-when-downgrade" - para coleta de dados do usuário para propagandas específicas
+            -> no-referrer - para não coletar nenhum dado do usuário
 
 
 
@@ -42,21 +48,17 @@
 
 
 ------- Aula 6 (Inconvenientes do iframe) -------
--> 
+-> Nunca use iframes para páginas que você quer que potencialmente sejam seus indexadores, pois os mecanismos de busca não funcionam perfeitamente em iframes
+-> Sofwares de acessibilidade também tem problemas para acessar sites com iframes
 
---- HTML ---
 
---- CSS ---
+
 
 ------- Aula 7 (Tornando iframes mais seguros) -------
--> 
 
---- HTML ---
-
---- CSS ---
 
 ------- Aula 8 (Dicas interessantes para iframes) -------
--> 
+-> É possívle incorporar quase de tudo no seu site se necessário
 
 --- HTML ---
 
