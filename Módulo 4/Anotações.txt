@@ -60,81 +60,49 @@
 ------- Aula 8 (Dicas interessantes para iframes) -------
 -> É possívle incorporar quase de tudo no seu site se necessário
 
---- HTML ---
-
---- CSS ---
 
 
 
 -------- Capítulo 23 () --------
 
 ------- Aula 1 (Projeto Redes Sociais) -------
--> 
-
---- HTML ---
-
---- CSS ---
 
 
 ------- Aula 2 (Organizando arquivos do do projeto) -------
--> 
-
---- HTML ---
-
---- CSS ---
-
-
 
 
 ------- Aula 3 (Criando a página principal) -------
--> 
-
---- HTML ---
-
---- CSS ---
 
 
 ------- Aula 4 (Posicionando o conteúdo na tela) -------
--> 
-
---- HTML ---
-
---- CSS ---
 
 
 ------- Aula 5 (Criando os botões de redes sociais) -------
--> 
-
---- HTML ---
+-> Para deixar a imagem arredondada, faça 'border-radius: 50%;' no CSS
 
 --- CSS ---
+-> box-sizing: border-box - para fazer com que a borda faça parte da caixa que está mexendo
+-> transition: transform 1s, border 1s - para fazer com que o conteúdo de 'transform' e o 'border' sejam feitos uma animação de '1s', que é 1 segundo
+
 
 
 
 ------- Aula 6 (Criando as páginas de cada rede) -------
--> 
-
---- HTML ---
 
 --- CSS ---
+-> ::-webkit-scrollbar { width: 0px; height: 0px; } - para tirar a barra de rolagem do site
 
 
 
 
 ------- Aula 7 (Personalizando as imagens do projeto) -------
--> 
-
---- HTML ---
-
---- CSS ---
-
 
 
 
 
 -------- Capítulo 24 () --------
 
-------- Aula 1 (Criando o primeiro Formuláriomp4) -------
+------- Aula 1 (Criando o primeiro Formulário) -------
 -> 
 
 --- HTML ---
