@@ -103,96 +103,129 @@
 -------- Capítulo 24 () --------
 
 ------- Aula 1 (Criando o primeiro Formulário) -------
--> 
 
 --- HTML ---
+-> <form> - tag para criação de formulários
+    -> autocomplete= "on/off" - faz com que o formulário tire ou coloque a função de auto completar palavras já digitadas nele
+    -> action= "backend.php" - faz com que seja enviado os campos digitados dentro do '<form>' para um "backend.php" para tratamento de dados
+    -> method="tipo" - faz com que seja tenha um "tipo" de envio para o seu formulário
+        -> GET - método padrão do formulário, serve para pegar dados do usuário (Utilizado para dados não sensíveis; Também utilizado para compartilhar link de busca; Tem limite de 3000 Bytes para envio)
+        -> POST - método que serve para enviar dados a um backend por exemplo para cadastro (Utilizado para dados sensíveis; Não tem limite de 3000 Bytes)
+-> <input> - tag para criar um campo de digitação para o usuário
+    -> type: "tipo" - define o "tipo" do campo de digitação
+        -> text - para definir como campo de texto normal
+        -> password - para definir como campo de senha, tendo as letras substituídas com asteriscos ou bolinhas na hora da digitação
+        -> submit - para definir como botão clicável para envio de dados
+        -> reset - para definir um botão clicável para limpar os campos do formulário
+        -> number - para definir um campo de digitação somente de números, pontos e hífen
+        -> month - para definir um campo de digitação de mês-ano
+        -> date - para definir um campo de digitação de dia-mês-ano
+        -> time - para definir um campo de digitação de horas-minutos
+        -> email - para definir um campo de digitação como e-mail
+        -> tel - para definir um campo de digitação como telefone
+        -> checkbox - para definir um campo de seleção com múltiplas escolhas
+        -> radio - para definir um campo de seleção com uma única escolha
+        -> color - para definir um campo de seleção de cor clicável
+        -> range - para definir um campo de barra de seleção clicável
+        -> file - para definir um campo de seleção de arquivo para envio
+    -> name="nome" - da um "nome" a tag input
+    -> id="identificador" - da um "identificador" a tag input
+    -> value="texto" - da um valor a tag trabalhada, ou seja, escreve na caixa da tag algum "texto" inicialmente
+    -> required - um parâmetro do input que faz com que o campo de digitação seja obrigatório preenchê-lo
+    -> minlength="valor" - define para o campo de digitação um "valor" mínimo de caracteres digitados 
+    -> maxlength="valor" - define para o campo de digitação um "valor" máximo de caracteres digitados
+    -> size="valor" - define para o campo de digitação um "valor" para o tamanho da caixa de digitação de acordo com número de caracteres, suponha que o valor seja "8", então a caixa vai ter o tamanho ideal para conter somente 8 caracteres, caso for digitar mais ela irá ser deslocada 1 caractere para a direita sempre que digitar algo
+    -> placeholder="texto" - define uma dica com "texto" para o usuário saber o que deverá ser digitado
+    -> autocomplete="tipo" - para auto completar tudo que o usuário digitou do "tipo" que já existe no seu navegador, existem muitos tipos de auto completar neste parâmetro, então utilizar com o que se encaixa melhor para seu formulário
 
---- CSS ---
+    -> min="valor" - para definir um "valor" mínimo a um campo de 'number'
+    -> max="valor" - para definir um "valor" máximo a um campo de 'number'
+    -> step="valor" - ao definir um campo como sendo 'number' ele terá um controle de setas ao lado direito, a cada clique na seta de cima, por padrão será adicionado 1, e a seta para baixo vai subtrair 1, mas com 'step' você pode definir um "valor" específico
+    -> pattern="regex" - define uma expressão regular para um campo de digitação, para aceitar somente o que a expressão regular permitir
+
+    -> checked - deixa o campo de seleção já marcado inicialmente
+
+    -> list="lista" - define de qual "lista" de opções ele irá utilizar como base para selecionar uma opção, caso haja
+
+    -> oninput="código-JavaScript" - cria um parâmetro que permite inserir códigos JavaScript para fazer cálculos por exemplo com as tags '<input>' e mostrar um resultado em um '<output>'
+
+
+
 
 ------- Aula 2 (Aprimorando Formulários com Label) -------
--> 
+-> O identificador "name" é mais importante para o backend do que para o JavaScript e HTML, já o "id" é mais importante para o JavaScript
+-> Por convenção num formulário, coloque o nome do "id" com sufixo "i" antes do nome, isto se deve para diferenciação do "name" e para utilização do '<label>', que identifica o significado de cada campo de digitação
 
 --- HTML ---
+-> <label for="id"> - da um significado semântico para o campo de digitação, sempre utilizar o "id" como sendo o identificador da label
 
---- CSS ---
+
+
 
 ------- Aula 3 (Métodos GET e POST) -------
--> 
-
---- HTML ---
-
---- CSS ---
 
 
 ------- Aula 4 (Atributos para input text e password) -------
--> 
-
---- HTML ---
-
---- CSS ---
 
 
 ------- Aula 5 (Elementos number month date e time) -------
--> 
-
---- HTML ---
-
---- CSS ---
-
 
 
 ------- Aula 6 (Compatibilidade com formulários) -------
--> 
+-> Sempre se preocupar com os dispositivos que vão acessar seu site, para saber se são compatíveis com o seu código
 
---- HTML ---
-
---- CSS ---
 
 
 
 ------- Aula 7 (Formulários com telefone e email) -------
--> 
+-> Toda expressão regular na no parâmetro 'pattern' inicia com '^' e termina com '$'
 
 --- HTML ---
+-> <fieldset> - para definir um contêiner que vai conter a obtenção de dados de campos de digitações
+-> <legend> - define uma legenda para o '<fieldset>'
 
---- CSS ---
 
 
 
 ------- Aula 8 (Checkbox e radio) -------
--> 
-
---- HTML ---
-
---- CSS ---
-
 
 
 ------- Aula 9 (Color, range e file) -------
--> 
+-> Utilizar o método POST no '<form>' quando for fazer envio de arquivos
 
---- HTML ---
-
---- CSS ---
 
 
 
 ------- Aula 10 (Select, datalist e textarea) -------
--> 
 
 --- HTML ---
-
---- CSS ---
+-> <select> - faz uma tag de seleção, que pode conter várisa opções
+    -> name="nome" - para definir um nome para o '<select>'
+    -> id="iid" - para definir um identificador para o '<select>'
+-> <option> - tag para inserir uma opção dentro da tag '<select>'
+    -> value="texto" - define o valor que será passado para o backend quando aquela opção for marcada
+    -> selected - define aquele '<option>' como sendo o padrão selecionado inicialmente
+-> <optgroup> - para definir um grupo de '<option>'
+    -> label="nome" - para definir o nome do grupo de opções, ele não é selecionável no '<select>'
+-> <datalist> - cria uma lista de opções que será vinculado a um '<input>', tem o mesmo comportamento do '<optgroup>', mas é possível digitar coisas dentro dele, e não só selecionar
+    -> id="id" - cria um identificador para '<datalist>'
+    -> <option> - insere opções que vão ser escolhidas dentro da tag '<input>' se necessário
+-> <textarea> - cria um campo de texto que tem formatação específica para textos maiores
+    -> name="nome" - da um "nome" a tag
+    -> id="inome" - da um "inome" (identificador) para a tag
+    -> cols="valor" - especifica o "valor" de colunas(caracteres) que será o limite por linha
+    -> rows="valor" - especifica o "valor" de linhas que será o limite na mensagem
 
 
 
 
 ------- Aula 11 (Output em Formulários HTML) -------
--> 
 
 --- HTML ---
+-> <output> - para criar um campo de texto que não será enviado pelo formulário, mas servirá como referência para o usuário
+    -> name="nome" - da um nome a tag '<output>'
+    -> id="idnome" - da um identificador a tag '<output>'
 
---- CSS ---
 
 
 
