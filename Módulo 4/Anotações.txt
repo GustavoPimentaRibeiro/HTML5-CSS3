@@ -232,72 +232,53 @@
 -------- Capítulo 25 () --------
 
 ------- Aula 1 (O que são Media Queries?) -------
--> 
-
---- HTML ---
-
---- CSS ---
+-> Media Queries são formas diferentes de você apresentar um conteúdo do site dependendo do dispositivo ou da ação
 
 
 
 
 ------- Aula 2 (Preparando um site para impressão) -------
--> 
+-> Não é recomendado colocar propagandas, menus e rodapés na estilização do formato impresso
 
 --- HTML ---
-
---- CSS ---
+-> <link rel="stylesheet" href="style.css" media="tipo"> - tag para criação de um link para um css de um "tipo" de 'media'
+    -> media="screen" - estilização para tela normal do navegador
+    -> media="print" - estilização para quando for imprimir a página do site
+    -> media="all" - estilização para todos os tipos de telas
+    -> media="screen and (orientation: portrait)" - estilização para telas em modo vertical (o que está entre parênteses são chamadas de Media Features)
+    -> media="screen and (orientation: landscape)" - estilização para telas em modo paisagem (o que está entre parênteses são chamadas de Media Features)
 
 
 
 
 ------- Aula 3 (Múltiplas Media Features) -------
--> 
-
---- HTML ---
-
---- CSS ---
-
 
 
 ------- Aula 4 (Seguindo a orientação do dispositivo(part. 1)) -------
--> 
-
---- HTML ---
-
---- CSS ---
-
-
 
 
 ------- Aula 5 (Seguindo a orientação do dispositivo(part. 2)) -------
--> 
-
---- HTML ---
 
 --- CSS ---
+-> @media screen and (orientation: portrait){ formatação }  - faz uma 'formatação' para dispositivos em modo retrato
+-> @media screen and (orientation: landscape){ formatação }  - faz uma 'formatação' para dispositivos em modo paisagem
 
 
 
 
 ------- Aula 6 (Mobile First - HTML5 e CSS3) -------
--> 
-
---- HTML ---
-
---- CSS ---
+-> Iniciar os projetos de um site criando todo o layout mobile primeiramente, faz com que o Google te dê mais credibilidade na busca
 
 
 
 
 ------- Aula 7 (Iniciando um site mobile first) -------
+-> 
 
 --- CSS ---
--> 
 
 --- HTML ---
 
---- CSS ---
 
 ------- Aula 8 (Device breakpoints) -------
 -> 
@@ -308,13 +289,12 @@
 
 
 ------- Aula 9 (Exercício menu responsivo) -------
+-> 
 
 --- CSS ---
--> 
 
 --- HTML ---
 
---- CSS ---
 
 ------- Aula 10 (Configuranod layout do projeto) -------
 -> 
@@ -325,13 +305,12 @@
 
 
 ------- Aula 11 (Criando um menu hambúrguer) -------
+-> 
 
 --- CSS ---
--> 
 
 --- HTML ---
 
---- CSS ---
 
 ------- Aula 12 (Media queries para outros dispositivos) -------
 -> 
@@ -391,4 +370,3 @@
 --- HTML ---
 
 --- CSS ---
-
