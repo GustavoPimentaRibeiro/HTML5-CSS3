@@ -273,52 +273,44 @@
 
 
 ------- Aula 7 (Iniciando um site mobile first) -------
--> 
+-> Usar 'box-sizing: border-box' na configuração geral do seu site '* { formatação }' deixa melhor para conseguir configurar o site
 
---- CSS ---
 
---- HTML ---
 
 
 ------- Aula 8 (Device breakpoints) -------
--> 
+-> Típicas resoluções para cada tipo de dispositivo (Typical Device Breakpoints):
+    -> Pequenas telas - até 600px
+    -> Celular - 600px em diante
+    -> Tablet - 768px em diante
+    -> Desktop/Laptop - 992px em diante
+    -> Grandes telas - acima de 1200px
+-> Se você fez seu site mobile first, então não precisa de estilização de '@media' para eles
 
---- HTML ---
 
---- CSS ---
 
 
 ------- Aula 9 (Exercício menu responsivo) -------
--> 
-
---- CSS ---
-
---- HTML ---
 
 
-------- Aula 10 (Configuranod layout do projeto) -------
--> 
-
---- HTML ---
-
---- CSS ---
+------- Aula 10 (Configurando layout do projeto) -------
 
 
 ------- Aula 11 (Criando um menu hambúrguer) -------
--> 
 
 --- CSS ---
+-> cursor: pointer - para modificar o tipo de ponteiro que aparecerá quando der :hover em uma tag
 
---- HTML ---
+
 
 
 ------- Aula 12 (Media queries para outros dispositivos) -------
--> 
 
---- HTML ---
-
---- CSS ---
-
+--- JavaScript ---
+-> id.style.display: tipo - para modificar o tipo de visualização de 'id'
+    -> 'none' - para tirar o elemento da tela
+    -> 'block' - para mostrar o elemento da tela como bloco
+-> window.innerWidth - para acessar o tamanho da tela onde está sendo utilizado o site
 
 
 
