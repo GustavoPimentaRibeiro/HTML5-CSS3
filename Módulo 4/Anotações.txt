@@ -349,8 +349,6 @@
 ------- Aula 6 (Finalizando projeto tela de login) -------
 -> Sempre colocar transform e transition na última linha do CSS para que ele sofra a ação depois de todas as formatações
 
---- HTML ---
-
 --- CSS ---
 -> calc(100% - 40px) - exemplo de cálculo que é possível fazer em qualquer tag que leva tamanho no seu parâmetro
 -> transform: translateY(tamanho) - faz com que somente a posição Y do site sofra a ação de 'tamanho' de translação
